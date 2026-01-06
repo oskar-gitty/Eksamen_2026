@@ -567,3 +567,16 @@ footer div a img {
     margin: 0.5rem 0;
   }
 }
+.card2_content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+  gap: 1rem;
+}
+
+.card2_content svg,
+.card2_content img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  display: block;
+}
