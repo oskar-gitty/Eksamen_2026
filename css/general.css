@@ -482,6 +482,7 @@ footer div a img {
     font-size: 2rem;
     gap: 1rem;
     padding: 1rem;
+    max-width: 100%;
   }
   .card2 {
     align-self: center;
